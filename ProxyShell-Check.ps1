@@ -70,7 +70,8 @@ Write-Host "===== Check Autostart Folder =====" -ForegroundColor Black -Backgrou
 Get-ChildItem "$ENV:APPDATA\Microsoft\Windows\Start Menu\Programs\Startup"
 Get-ChildItem  "$ENV:ProgramData\Microsoft\Windows\Start Menu\Programs\Startup"
 
-Write-Host "===== Check Drafts Folder of your Administrator User =====" -ForegroundColor Black -BackgroundColor Yellow´Write-Host "Check in Browser"
+Write-Host "===== Check Drafts Folder of your Administrator User =====" -ForegroundColor Black -BackgroundColor Yellow
+Write-Host "Check in Browser"
 Start-Process "https://localhost/owa"
 
 Remove-PSSession $session
