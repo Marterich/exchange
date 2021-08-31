@@ -1,5 +1,3 @@
-Add-PSSnapin Microsoft.Exchange.Management.PowerShell.SnapIn
-
 cls
 $wwwrootfolder = "C:\inetpub\wwwroot\"
  
